@@ -1,7 +1,6 @@
 #FILE/SCRIPT NAME: DUCKGAME.PY.
 #© ABHAY TRIPATHI
-#ALL RESOURCES ARE ATTACHED WITH THE SCRIPT i.e. SAME FOLDER.
-#KINDLY IGNORE SPELLING AND GRAMMAR MISTAKES IN CODE EXPLAINING COMMENTS.
+
 #START OF CODE
 try:
     from tkinter import *                                                                                   #import graphics (frame, button, etc.).
@@ -256,4 +255,3 @@ root.protocol("WM_DELETE_WINDOW", on_closing)                                   
 f.pack()                                                                                                   #tkinter graphic handler is implementing all positioning, referencing and mapping of functions to graphic objects declared in the script.
 f.mainloop()                                                                                               #starting of all the scheduler threads and showing of the game in front of the user.
 #END OF CODE
-#COMPUTER SCIENCE PROJECT 2019 - 2020 BY ABHAY TRIPATHI.
